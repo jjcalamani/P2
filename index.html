@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> copacabana <span>tours</span></a>
+
+        <fomr class="search-form">
+            <input type="search" name="" placeholder="buscar aqui..." id="search-box">
+            <label for="searchBox" class="fas fa-search"></label>
+        </fomr>
+
+        <div class="icons">
+            <div class="fas fa-search search-btn" id="search-btn"></div>
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-bars menu-btn" id="menu-btn"></div>
+        </div>
+        
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#packages">paquetes</a>
+            <a href="#services">servicios</a>
+            <a href="#pricing">precios</a>
+            <a href="#review">reseñas</a>
+            <a href="#contact">contacto</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" style="background: url(img/home-03.jpg);">
+                    <div class="content">
+                        <h3>ven y conoce <span>copacabana - bolivia</span></h3>
+                        <p>special discount</p>
+                        <div class="button">
+                            <a href="#" class="btn">comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" style="background: url(img/home-04.jpg);">
+                    <div class="content">
+                        <h3>en la ciudad mas alta del mundo</h3>
+                        <p>on all costumes</p>
+                        <div class="button">
+                            <a href="#" class="btn">comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    
+    </section>
+
+    <section class="form-container" >
+        <form action="">
+            <div class="inputBox">
+                <span>llegada</span>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <span>salida</span>
+                <input type="date">
+            </div>
+            <input type="submit" value="reservar ahora" class="btn">
+        </form>
+    </section>
+    
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
